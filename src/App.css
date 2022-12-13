@@ -1,0 +1,76 @@
+
+/* Header */
+header{
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
+  background-image: linear-gradient(to right,  rgb(151, 94, 151), pink);
+
+}
+
+/* Laraib Fatima */
+#lf{
+width: 300px;
+font-family: 'Philosopher', sans-serif;
+text-shadow: 5px 5px 9px rgb(246, 246, 246);
+}
+#lf h1{
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px;
+
+}
+/* navbar */
+#navbar{
+  height: 30px;
+  width:100%;
+}
+#navbar ul li{
+  list-style: none;
+  float:right;
+}
+#navbar ul li a{
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  color: black;
+  text-shadow: 5px 5px 5px rgb(234, 213, 220);
+  font-family: 'Ibarra Real Nova', serif;
+  cursor: pointer;
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif; */
+}
+#navbar ul li a:hover{
+background-color: rgb(239, 133, 168);
+border-radius: 10px;
+scroll-behavior: smooth 2s;
+}
+
+/* SECTION ---- HOME */
+#home{
+  margin-top: 10px;
+  background-image: linear-gradient(to right,rgb(151, 94, 151), white);
+}
+#hometxt{
+  height: 430px;
+  display: inline-block;
+  margin: 90px 100px 20px 120px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 36px;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 50%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+#hometxt h2{
+  font-family: 'Ibarra Real Nova', serif;
+  font-size:26px;
+  animation: slide-left 2s;
+}
+
+ 
